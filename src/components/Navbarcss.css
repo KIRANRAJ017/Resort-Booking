@@ -1,0 +1,62 @@
+
+.nav{
+    display: flex;
+    justify-content:center;
+    overflow: hidden;
+    padding-top: 2vh;
+    width: 100%;
+    background-color: rgba(250, 250, 250, 0.061);
+    z-index: 5;
+    padding-bottom: 2vh;
+    font-size: 18px;
+}
+
+.elements{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+a:link{
+    text-decoration: none;
+    margin-right: 6vh;
+    padding: 3px;
+    
+}
+.comp {
+    color: rgb(255, 255, 255);
+    width: 30%;
+}
+.comp:hover{
+    color:#00c5fb;
+}
+.toggicon{
+    display: none;
+}
+
+
+/* Responsive media */
+
+@media (max-width:699px) {
+    .elements{
+        display: none;
+    }
+    .nav{
+        z-index: 6;
+    }
+    .toggicon{
+        display: block;
+        background-color:wheat ;
+        position:absolute;
+        margin-top: 5cm;
+        z-index: 7;
+    }
+    
+}
+
+@media (max-width:1050px) {
+    .elements{
+        margin-right: -3vh;
+    }
+}
+
+

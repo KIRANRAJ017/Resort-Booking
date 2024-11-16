@@ -1,0 +1,108 @@
+.card1 {
+  width: 20vw;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-img1 {
+  width:100%;
+  height:30vh; /* Changed to auto for responsiveness */
+  object-fit: cover;
+}
+
+.card-body1 {
+  padding: 20px;
+}
+
+.card-price1 {
+  margin: 0;
+  font-size: 24px; /* Adjusted font size for mobile view */
+  color: #333;
+}
+
+.card-rating1 {
+  margin-bottom: 10px;
+}
+
+.star-icon1 {
+  color: gold;
+  margin-right: 5px;
+  font-size: 16px; /* Adjusted font size for mobile view */
+}
+
+.book-button1 {
+  color: #333;
+  border: 1px solid rgba(0, 0, 0, 0.59);
+  padding: 10px 20px;
+  font-size: 14px; /* Adjusted font size for mobile view */
+  border-radius: 20px;
+  cursor: pointer;
+  background: none;
+}
+
+.extra {
+  background: none;
+  border: 1px solid rgba(0, 0, 0, 0.59);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 22px;
+  font-size: 16px; /* Adjusted font size for mobile view */
+  margin-left: 10px;
+}
+
+.roomtype {
+  font-size: 16px; /* Adjusted font size for mobile view */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: #333;
+}
+
+.roomcard {
+  display: grid;
+  grid-template-columns: repeat(3,auto); /* Three columns layout */
+  justify-content: center;
+  gap: 40px;
+  padding-top: 20px;
+}
+
+.rooms {
+  padding-top: 10vh;
+  font-size: 16px; /* Adjusted font size for mobile view */
+  background-color: rgba(128, 128, 128, 0.139);
+  min-height: 90vh; /* Changed height to auto for responsiveness */
+}
+
+/* Media query for mobile view */
+@media only screen and (max-width: 600px) {
+  .card-price1 {
+    font-size: 20px;
+  }
+  
+  .star-icon1 {
+    font-size: 14px;
+  }
+  
+  .book-button1 {
+    font-size: 12px;
+  }
+  
+  .extra {
+    font-size: 14px;
+  }
+  
+  .roomtype {
+    font-size: 14px;
+  }
+  .roomcard {
+
+    grid-template-columns: repeat(1, 1fr); /* Single column layout for mobile view */
+    padding-left: 20px;
+  }
+  .card1{
+    width: 90%;
+  }
+}

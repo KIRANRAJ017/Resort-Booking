@@ -1,0 +1,61 @@
+/* about.css */
+
+.about-container {
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    margin-top: 10vh;
+  }
+  
+  .card {
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-left: 10vw;
+  }
+  
+  .content {
+    flex: 1;
+    padding:20px;
+    padding-right: 80px;
+  }
+  
+  .image {
+    flex: 1;
+  }
+  .abtimg{
+    width:  30vw;
+    height: 60vh;
+  }
+  .showbutt{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: none;
+  }
+  
+  @media (max-width: 768px) {
+    /* Adjust layout for smaller screens */
+    .about-container{
+      padding: 0;
+      margin-left: -35px;
+    }
+    .card{
+      display: grid;
+      grid-template-columns: repeat(1,auto);
+      justify-content: center;
+    }
+    .content{
+      padding: 10px;
+    }
+    .image{
+      padding: 10px;
+    }
+    .abtimg{
+      width: 100%;
+    }
+  }
+  
