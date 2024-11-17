@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/KIRANRAJ017/Resort-Booking.git/static/css/main.d1252f1d.css",
+    "main.js": "/KIRANRAJ017/Resort-Booking.git/static/js/main.72531d02.js",
+    "static/media/deluxebedroom.jpg": "/KIRANRAJ017/Resort-Booking.git/static/media/deluxebedroom.c627ad958fa81d352c4a.jpg",
+    "static/media/IMG-20241116-WA0022.jpg": "/KIRANRAJ017/Resort-Booking.git/static/media/IMG-20241116-WA0022.8d5240a26c2a11ed6449.jpg",
+    "static/media/WhatsApp Image 2024-11-16 at 18.29.02_7d336a07.jpg": "/KIRANRAJ017/Resort-Booking.git/static/media/WhatsApp Image 2024-11-16 at 18.29.02_7d336a07.bb7e5d63cd9d5b6c1771.jpg",
+    "static/media/outer.jpg": "/KIRANRAJ017/Resort-Booking.git/static/media/outer.113e6c19944c87a47626.jpg",
+    "static/media/doublebedroom.jpg": "/KIRANRAJ017/Resort-Booking.git/static/media/doublebedroom.6c94cd45493752e9f1d4.jpg",
+    "static/media/resort.jpg": "/KIRANRAJ017/Resort-Booking.git/static/media/resort.dae023b10c64534d84e9.jpg",
+    "static/media/inner.jpg": "/KIRANRAJ017/Resort-Booking.git/static/media/inner.f7e06254cd09de66f935.jpg",
+    "static/media/IMG-20241116-WA0010.jpg": "/KIRANRAJ017/Resort-Booking.git/static/media/IMG-20241116-WA0010.28ef982c46b8aa910a11.jpg",
+    "static/media/Beach house.jpg": "/KIRANRAJ017/Resort-Booking.git/static/media/Beach house.154dbd92fa3a945257cf.jpg",
+    "static/media/singlebed.jpg": "/KIRANRAJ017/Resort-Booking.git/static/media/singlebed.46f487eb63d6db5df03c.jpg",
+    "index.html": "/KIRANRAJ017/Resort-Booking.git/index.html",
+    "main.d1252f1d.css.map": "/KIRANRAJ017/Resort-Booking.git/static/css/main.d1252f1d.css.map",
+    "main.72531d02.js.map": "/KIRANRAJ017/Resort-Booking.git/static/js/main.72531d02.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1252f1d.css",
+    "static/js/main.72531d02.js"
+  ]
+}
