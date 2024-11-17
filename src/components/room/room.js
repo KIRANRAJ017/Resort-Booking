@@ -1,9 +1,9 @@
 import React from 'react';
 import Card from './card';
 import "./imgcard.css"
-import img1 from "./singlebed.jpg"
-import img2 from "./doublebedroom.jpg"
-import img3 from "./deluxebedroom.jpg"
+import img1 from "../images/singlebed.jpg"
+import img2 from "../images/doublebedroom.jpg"
+import img3 from "../images/deluxebedroom.jpg"
 
 const Cardimg = () => {
   const handleBook = () => {
@@ -12,8 +12,8 @@ const Cardimg = () => {
 
   return (
     <div  className="rooms" id='price'>
-      <h1 style={{color:'#333',textAlign:'center'}}>Our Favorite Room</h1>
-      <p style={{textAlign:'center',marginTop:'-30px',fontSize:'18px'}}>The Best Dream Happen When You're Awake</p>
+      <h1 data-aos="fade-right">Your dream <br/> <span className='abt-subhead'>luxurious hotel room</span> <span className='abt-subheadline'></span></h1>
+      <p data-aos="fade-right" style={{marginLeft:'90px', marginTop:'-30px',fontSize:'18px'}}>The Best Dream Happen When You're Awake</p>
       <br/>
     <div className='roomcard'>
       <Card

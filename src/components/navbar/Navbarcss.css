@@ -1,14 +1,20 @@
 
 .nav{
-    display: flex;
+    display: grid;
     justify-content:center;
     overflow: hidden;
-    padding-top: 2vh;
-    width: 100%;
-    background-color: rgba(250, 250, 250, 0.061);
+    padding-top: 1vh;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.193);;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px); /* Apply the glass effect */
+    border-radius: 10px;
     z-index: 5;
-    padding-bottom: 2vh;
+    padding-bottom: 1vh;
     font-size: 18px;
+    margin-left: 20%;
+    margin-top: 10px;
 }
 
 .elements{
@@ -23,11 +29,9 @@ a:link{
     
 }
 .comp {
-    color: rgb(255, 255, 255);
+    color: white;
+    font-weight:400;
     width: 30%;
-}
-.comp:hover{
-    color:#00c5fb;
 }
 .toggicon{
     display: none;

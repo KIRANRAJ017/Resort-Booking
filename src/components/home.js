@@ -1,8 +1,8 @@
-import About from "./about"
-import Book from "./book"
-import Footer from "./footer"
-import ImageSlider from "./gallery"
-import Pricing from "./room"
+import About from "./about/about"
+import Book from "./book/book"
+import Footer from "./footer/footer"
+import ImageSlider from "./gallery/gallery"
+import Pricing from "./room/room"
 
 function Home(){
     return(

@@ -1,5 +1,5 @@
 .card1 {
-  width: 20vw;
+  width: 22vw;
   border: 1px solid #ccc;
   border-radius: 8px;
   overflow: hidden;
@@ -70,12 +70,16 @@
 }
 
 .rooms {
-  padding-top: 10vh;
+  padding: 10vh;
   font-size: 16px; /* Adjusted font size for mobile view */
   background-color: rgba(128, 128, 128, 0.139);
   min-height: 90vh; /* Changed height to auto for responsiveness */
 }
-
+h1{
+  font-size: 50px;
+  color: rgb(63, 59, 59);
+  font-family:'Times New Roman', Times, serif;
+}
 /* Media query for mobile view */
 @media only screen and (max-width: 600px) {
   .card-price1 {

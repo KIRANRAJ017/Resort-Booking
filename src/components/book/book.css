@@ -1,12 +1,11 @@
 /* book.css */
-
 .book {
-    position: relative;
     height: 100vh;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
     align-items: center;
     justify-content: center;
-    color: white;
+    color: rgb(255, 255, 255);
   }
   
   .backimg {
@@ -21,31 +20,36 @@
   .img {
     width: 100%;
     height: 100%;
-   
+    filter: blur(1px);
   }
   
   .head {
     text-align: center;
+    h2{
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
   }
   
   .head h1 {
+    color: white;
     font-size: 48px;
     margin-bottom: 20px;
+    font-family:'Times New Roman', Times, serif;
   }
   
   .head p {
     font-size: 20px;
     margin-top: -10px;
+    font-family: cursive;
   }
   
   .startbut{
-
     margin-top: 50px;
     padding-top: 15px;
     padding-left:40px;
     padding-bottom: 15px;
     background:none;
-    border-color: white;
+    border:2px solid white;
     border-radius: 30px;
     a{
         color: white;
@@ -57,6 +61,8 @@
   position: absolute;
   margin-left: 4vw;
   font-size: 24px;
-  color: rgb(192, 181, 181);
+  color: rgb(255, 255, 255);
   cursor: pointer;
+  font-weight: bolder;
+  -webkit-text-stroke: 0.5px rgba(96, 96, 96, 0.659);
 }  
