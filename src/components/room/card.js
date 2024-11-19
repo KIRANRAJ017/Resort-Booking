@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import "./imgcard.css"
 import { FaStar } from "react-icons/fa";
 import { FaWifi } from "react-icons/fa";
+import { Link } from "react-router-dom"
 
 const Card = ({ imgSrc, price, rating, onBook, room }) => {
   return (
@@ -17,7 +18,7 @@ const Card = ({ imgSrc, price, rating, onBook, room }) => {
           <div className='roomtype'>{room}</div>
         </div>
         <div>
-          <button className="book-button1" onClick={onBook}>Book Now</button>
+          <Link to='/book'><button className="book-button1" onClick={onBook}>Book Now</button></Link>
           <button className='extra'><FaWifi /></button>
         </div>
       </div>

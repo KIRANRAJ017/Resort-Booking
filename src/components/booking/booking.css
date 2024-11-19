@@ -1,0 +1,101 @@
+.book-page{
+    background-color: rgba(232, 232, 232, 0.234);
+    width: 100vw;
+    height: 100vh;
+    color: #2b2b2b;
+}
+.book-home{
+    h1{
+        font-size: 28px;
+        margin-left: 40px;
+        margin-top: 0px;
+    }
+}
+.main-content {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    padding: 20px;
+    gap: 5vw;
+    margin-top: -30px;
+  }
+  
+  .booking-details {
+    flex: 2;
+  }
+  
+  .invoice-section {
+    flex: 1;
+    padding: 15px;
+    border-radius: 8px;
+
+  }
+  
+  .details-grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .details-grid input,
+  .details-grid select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .update-button {
+    background-color: #43b79e;
+    color: white;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .update-button:hover ,.confirm-button:hover{
+    background-color: rgba(232, 232, 232, 0.234);
+    border:1px solid #43b79e;
+    color: #43b79e;
+  }
+  
+  .confirm-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #43b79e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .book-img{
+    width: 140px;
+    height: 100px;
+    border-radius: 5px;
+  }
+  .book-head{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: left;
+    gap: 10px;
+    align-items: center;
+  }
+  .house-rules{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 52vw;
+    justify-content: left;
+    gap: 20px;
+  }
+  .book-hd{
+    text-align: right;
+    margin-right: 40px;
+    margin-top: -30px;
+  }
+  .book-subhd{
+    margin-right: 80px;
+  }

@@ -4,15 +4,15 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" id="contact">
       <div className="footer-container">
         <div className="footer-left-section">
             <div><h2 className="footer-title">Magic Moments.</h2></div>
           <div className="foot"><p className="footer-links">
             <a href="#about" className="footer-link">About |</a>
-            <a href="#benefits" className="footer-link">Benefits |</a>
-            <a href="#career" className="footer-link">Career |</a>
-            <a href="#support" className="footer-link">Support |</a>
+            <a href="#benefits" className="footer-link">Rooms |</a>
+            <a href="#career" className="footer-link">Gallery |</a>
+            <a href="#support" className="footer-link">Book Rooms |</a>
           </p>
           <p className="footer-copyright">
             &copy; 2024 Magic Moments.

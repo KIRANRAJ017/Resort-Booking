@@ -5,6 +5,7 @@ import img3 from "../images/WhatsApp Image 2024-11-16 at 18.29.02_7d336a07.jpg"
 import "aos/dist/aos.css"
 import Aos from "aos"
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 function AboutPage() {
     useEffect(()=>{
@@ -22,7 +23,7 @@ function AboutPage() {
                     for every trip on your bucket list. Like the effervescent shimmer of an Opal gemstone, 
                     each destination radiates with its own unique experiences. Each property reflects a distinct connection 
                     to its destination through locally inspired design, regional culinary features, and signature activities.</p>
-                    <button className='showbutt'>Show more</button>
+                    <Link to='/places'><button className='showbutt'>Show more</button></Link>
                 </div>
                 <div className="image">
                     <img src={img1} alt="About Us" className='abtimg1' data-aos="fade-right"  />

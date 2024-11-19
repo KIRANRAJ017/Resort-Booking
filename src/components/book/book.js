@@ -1,6 +1,7 @@
 import Navbar from "../navbar/Navbar"
 import img from "../images/Beach house.jpg"
 import "./book.css"
+import { Link } from "react-router-dom"
 
 function Book(){
     return(
@@ -16,7 +17,7 @@ function Book(){
                     <h2>Elevate your senses <br/>in paradise</h2><br/>
                     <p style={{fontSize:'18px',marginTop:'-25px'}}>A place to get away from the hustle of everyday life and grow in peace</p>
                     <div>
-                        <button className="startbut"><a href="s" className="a">BOOK RESORT</a></button>
+                        <button className="startbut"><Link to="/book" >BOOK RESORT</Link></button>
                     </div>
                 </div>
             </div>
