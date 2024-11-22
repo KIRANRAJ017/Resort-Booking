@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Resort-Booking/static/css/main.9a359c5b.css",
-    "main.js": "/Resort-Booking/static/js/main.6f2914c3.js",
+    "main.js": "/Resort-Booking/static/js/main.46282799.js",
     "static/media/deluxebedroom.jpg": "/Resort-Booking/static/media/deluxebedroom.c627ad958fa81d352c4a.jpg",
     "static/media/IMG-20241116-WA0022.jpg": "/Resort-Booking/static/media/IMG-20241116-WA0022.3a14f56a458e1acddbb1.jpg",
     "static/media/WhatsApp Image 2024-11-16 at 18.29.02_7d336a07.jpg": "/Resort-Booking/static/media/WhatsApp Image 2024-11-16 at 18.29.02_7d336a07.bb7e5d63cd9d5b6c1771.jpg",
@@ -14,10 +14,10 @@
     "static/media/singlebed.jpg": "/Resort-Booking/static/media/singlebed.46f487eb63d6db5df03c.jpg",
     "index.html": "/Resort-Booking/index.html",
     "main.9a359c5b.css.map": "/Resort-Booking/static/css/main.9a359c5b.css.map",
-    "main.6f2914c3.js.map": "/Resort-Booking/static/js/main.6f2914c3.js.map"
+    "main.46282799.js.map": "/Resort-Booking/static/js/main.46282799.js.map"
   },
   "entrypoints": [
     "static/css/main.9a359c5b.css",
-    "static/js/main.6f2914c3.js"
+    "static/js/main.46282799.js"
   ]
 }
