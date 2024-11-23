@@ -1,5 +1,5 @@
 import Navbar from "../navbar/Navbar"
-import img from "../images/..jpg"
+import img from "../images/back.jpg"
 import "./book.css"
 import Bookbut from "./bookbut"
 
