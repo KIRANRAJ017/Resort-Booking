@@ -4,34 +4,44 @@
     justify-content:center;
     overflow: hidden;
     padding-top: 1vh;
-    width: 60%;
+    width: 55%;
     background-color: rgba(0, 0, 0, 0.193);;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(10px); /* Apply the glass effect */
+    backdrop-filter: blur(10px);
     border-radius: 10px;
     z-index: 5;
     padding-bottom: 1vh;
     font-size: 18px;
-    margin-left: 20%;
     margin-top: 10px;
+    margin-left: 22%;
 }
-
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    width: 60vw;
+    align-items: center;
+}
+a{
+    color: white;
+}
 .elements{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    justify-content: center;
+    gap: 2vw;
+    padding-right: 40px;
     list-style-type: none;
-}
-a:link{
-    text-decoration: none;
-    margin-right: 6vh;
-    padding: 3px;
-    
+    a{
+        text-decoration: none;
+        padding: 3px;
+    }
+    margin-left: -15px;
 }
 .comp {
     color: white;
     font-weight:400;
-    width: 30%;
 }
 .toggicon{
     display: none;

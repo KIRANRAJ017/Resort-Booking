@@ -47,7 +47,7 @@
   
   .room-item.active {
     border-color: #a7a4a4;
-    background-color: #eee;
+    background-color: rgba(128, 128, 128, 0.09);
   }
   
   .room-item img {

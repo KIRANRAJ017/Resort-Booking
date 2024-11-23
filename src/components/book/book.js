@@ -1,7 +1,7 @@
 import Navbar from "../navbar/Navbar"
-import img from "../images/Beach house.jpg"
+import img from "../images/..jpg"
 import "./book.css"
-import { Link } from "react-router-dom"
+import Bookbut from "./bookbut"
 
 function Book(){
     return(
@@ -13,12 +13,10 @@ function Book(){
                     <img src={img} alt="backgound" className="img" />
                 </div>
                 <div className="head">
-                    <h1>Magic Moments</h1><br/><br/>
-                    <h2>Elevate your senses <br/>in paradise</h2><br/>
+                    <h1>MAGIC MOMENTS</h1>
+                    <h3 style={{marginTop:"-20px", color:'lightgrey'}}>Elevate your senses in paradise</h3><br/><br/><br/>
                     <p style={{fontSize:'18px',marginTop:'-25px'}}>A place to get away from the hustle of everyday life and grow in peace</p>
-                    <div>
-                        <button className="startbut"><Link to="/book" >BOOK RESORT</Link></button>
-                    </div>
+                    <Bookbut/>
                 </div>
             </div>
         </div>
