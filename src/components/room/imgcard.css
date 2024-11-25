@@ -70,7 +70,8 @@
 }
 
 .rooms {
-  padding: 10vh;
+  padding:5vh;
+  padding-left: 10vh;
   font-size: 16px; /* Adjusted font size for mobile view */
   background-color: rgba(128, 128, 128, 0.09);
   min-height: 90vh; /* Changed height to auto for responsiveness */
